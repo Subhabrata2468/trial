@@ -17,7 +17,7 @@ spec:
       port:
         number: 80
   rules:
-    - host: ec2-3-223-3-141.compute-1.amazonaws.com
+    - host: ec2-44-210-133-220.compute-1.amazonaws.com
       http:
         paths:
           - path: /
