@@ -30,11 +30,6 @@ spec:
           image: subhabrata3002/snappy-server-repo:latest
           ports:
             - containerPort: 5000
-          env:
-            - name: PORT
-              value: "5000"
-            - name: MONGO_URL
-              value: "mongodb://snappy.com/chat"
           resources:
             requests:
               memory: "128Mi"
